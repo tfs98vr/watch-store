@@ -1,0 +1,9 @@
+.shop-container {
+  background-image: linear-gradient(360deg, #73777B, #929496);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 100vh;
+  padding: 2vh 8vw 2vh 8vw;
+  gap: 10px;
+}

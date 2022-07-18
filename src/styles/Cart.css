@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+.cart-background {
+  background-image: linear-gradient(360deg, #73777B, #929496);
+  font-family: 'Josefin Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cart-watch {
+  display: flex;
+  gap: 10px;
+  background-color: lightgray;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.cart-img {
+  height: 100px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-img img {
+  height: 100px;
+  width: 70px;
+}
+
+.cart-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cart-info h3,
+.cart-info p {
+  margin: 0px;
+}
+
+.cart-info div {
+  display: flex;
+  align-items: center;
+}
+
+.cart-info div p {
+  background-color: #EC994B;
+  padding: 2px;
+}
+
+.cart-info button {
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: black;
+  background-color: #EC994B;
+  border: 0px;
+  padding: 3px 6px 3px 6px;
+  text-transform: uppercase;
+  transition: 250ms;
+}
+
+.cart-info button:hover {
+  background-color: #d08742;
+}
+
+.increase {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.decrease {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
